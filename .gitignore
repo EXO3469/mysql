@@ -1,1 +1,3 @@
-.jq-template.awk
+*.env
+*.log
+__pycache__/

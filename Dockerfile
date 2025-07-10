@@ -1,0 +1,8 @@
+FROM mysql:8.0
+
+ENV MYSQL_ROOT_PASSWORD=supersecurepass
+ENV MYSQL_DATABASE=keydb
+ENV MYSQL_USER=admin
+ENV MYSQL_PASSWORD=adminpass
+
+EXPOSE 3306
